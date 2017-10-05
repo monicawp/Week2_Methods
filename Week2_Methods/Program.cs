@@ -13,15 +13,37 @@ namespace Week2_Methods
             //int answer = Add(5, 7);
             //Console.Write
 
-            FavoriteFood("Monica", "lobster raviolli"); 
+            //Console.WriteLine("Please enter your name");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("Please enter your favorite food");
+            // string food = Console.ReadLine();
+
+
+            //FavoriteFood("Bob", "pizza");
+            //FavoriteFood("Mia", "ice cream");
+            //FavoriteFood("Beth", "apples");
+
+            RetirementCalc(70);
+
+
+
+
         }
 
 
-        public static void FavoriteFood(string name, string food)
+        //public static void FavoriteFood(string name, string food)
+        //{
+        //    Console.WriteLine("**************");
+        //    Console.WriteLine(name + "'s favorite food is " + food);
+        //    Console.WriteLine(); 
+        //}
+
+        public static void RetirementCalc(int age)
         {
-            Console.WriteLine(name + "'s favorite food is " + food);
+            int retirementAge = Math.Max(0, 65 - age); 
+            Console.WriteLine("The user will retire in " + retirementAge + " years"); 
         }
-
 
 
 
