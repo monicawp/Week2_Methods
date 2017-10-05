@@ -24,7 +24,19 @@ namespace Week2_Methods
             //FavoriteFood("Mia", "ice cream");
             //FavoriteFood("Beth", "apples");
 
-            RetirementCalc(70);
+            //RetirementCalc(70);
+
+
+            Console.WriteLine("Please enter your hours worked this month");
+            double worked = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Now enter your hourly wage");
+            double wage = double.Parse(Console.ReadLine());
+
+
+
+            Console.WriteLine("Your monthly wage is " + WageCalc(worked, wage)); 
+
 
 
 
@@ -39,16 +51,22 @@ namespace Week2_Methods
         //    Console.WriteLine(); 
         //}
 
-        public static void RetirementCalc(int age)
+        //public static void RetirementCalc(int age)
+        //{
+        //    int retirementAge = Math.Max(0, 65 - age); 
+        //    Console.WriteLine("The user will retire in " + retirementAge + " years"); 
+        //}
+
+
+
+
+        public static double WageCalc(double worked, double wage)
         {
-            int retirementAge = Math.Max(0, 65 - age); 
-            Console.WriteLine("The user will retire in " + retirementAge + " years"); 
-        }
-
-
-
-
-
+            double moneyMade = (worked * wage);
+            
+            return moneyMade;
+         
+        } 
 
 
 
