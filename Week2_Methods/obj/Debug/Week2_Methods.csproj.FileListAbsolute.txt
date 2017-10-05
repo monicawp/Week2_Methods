@@ -1,1 +1,6 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\bin\Debug\Week2_Methods.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\bin\Debug\Week2_Methods.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\bin\Debug\Week2_Methods.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\obj\Debug\Week2_Methods.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\obj\Debug\Week2_Methods.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\Week2_Methods\Week2_Methods\obj\Debug\Week2_Methods.pdb

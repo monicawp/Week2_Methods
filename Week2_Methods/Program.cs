@@ -10,6 +10,50 @@ namespace Week2_Methods
     {
         static void Main(string[] args)
         {
+            //int answer = Add(5, 7);
+            //Console.Write
+
+            FavoriteFood("Monica", "lobster raviolli"); 
         }
+
+
+        public static void FavoriteFood(string name, string food)
+        {
+            Console.WriteLine(name + "'s favorite food is " + food);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //public static int Add(int firstNumber, int secondNumber)
+        //{
+        //    int sum = firstNumber + secondNumber;
+
+        //    return sum; 
+        //}
+
+
+
+
+
     }
 }
